@@ -27,7 +27,11 @@ const routes = [
   {
   path: '/people',
   component:People
-},
+  },
+  {
+    path: '/',
+    redirect: '/home'
+  },
 ]
 
 const router = new VueRouter({
