@@ -20,10 +20,10 @@
             <div class="text1">还没有帐号?
                 <span class="anotherlogin" @click="anotherlogin">使用医院系统帐号登录</span>
             </div>
-            <a href="http://doc.cloudschool.shadowfish0.top/" target="blank" class="what">什么是互联医疗</a>
+            <a href="#" target="blank" class="what">什么是互联医疗</a>
         </div>
         <div class="input_box2" ref="box2">
-            <p>学校</p>
+            <p>医院</p>
             <el-cascader
     v-model="school"
     :options="options"
