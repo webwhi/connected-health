@@ -5,10 +5,10 @@
         <div class="english">{{english}}</div>
     </div>
     <div class="login_box">
-        <div class="title">互联医疗  <span class="version">v4.6.4</span></div>
+        <div class="title">互联医疗  <span class="version">v1.0.0</span></div>
         <div class="container_boxs">
         <div class="input_box" ref="box1">
-            <p>用户名/学号</p>
+            <p>用户名/工号</p>
             <input type="text" ref="input1" v-model="username" @focus="click_input1" @blur="blur_input1" class="input">
             <p>密码</p>
             <input type="password" ref="input2" v-model="password" @focus="click_input2" @blur="blur_input2" class="input">
@@ -61,8 +61,8 @@ import { TextAPI } from '../Myaxios/api'
 export default {
   data () {
     return {
-      english: 'He who laughs last laughs best.',
-      chinese: '笑到最后才笑得最好。',
+      english: 'Connected medical analytics make testing more efficient  .',
+      chinese: '互联医疗分析让检测更加高效',
       tupian: '',
       username: '',
       password: '',
@@ -71,10 +71,10 @@ export default {
       school: 'hbut',
       options: [{
         value: 'hbut',
-        label: '湖北工业大学'
+        label: '湖北工业大学校医院'
       }, {
         value: 'hbuttech',
-        label: '湖北工业大学工程技术学院'
+        label: '武汉大学人民医院'
       }]
     }
   },
@@ -186,7 +186,7 @@ img{
     letter-spacing: 4px;
     font-family: 微软雅黑;
     font-weight: 500;
-    color: rgb(129, 138, 212);
+    color: rgb(64, 158, 255);
     margin-bottom: 50px;
     margin-top: 6vh;
 }
@@ -251,13 +251,13 @@ p:nth-of-type(2)
 }
 .login{
     width:100%;
-    background-color: rgb(129, 138, 212);
+    background-color: rgb(64, 158, 255);
     color:#FFFFF8;
     margin-top: 18px;
 }
 .login2{
     width:100%;
-    background-color: rgb(129, 138, 212);
+    background-color: rgb(64, 158, 255);
     color:#FFFFF8;
     margin-top:3px;
 }
@@ -274,12 +274,12 @@ p:nth-of-type(2)
     font-weight: 400;
 }
 .anotherlogin{
-    color:rgb(129, 138, 212);
+    color:rgb(64, 158, 255);
     cursor: pointer;
     font-weight: bold;
 }
 .what{
-    color:rgb(129, 138, 212);
+    color:rgb(64, 158, 255);
     cursor: pointer;
     font-weight: bold;
     margin-left:77%;
