@@ -18,9 +18,9 @@
             </div>
             <el-button class="login" @click="login_yixi">立即登录</el-button>
             <div class="text1">还没有帐号?
-                <span class="anotherlogin" @click="anotherlogin">使用教务系统帐号登录</span>
+                <span class="anotherlogin" @click="anotherlogin">使用医院系统帐号登录</span>
             </div>
-            <a href="http://doc.cloudschool.shadowfish0.top/" target="blank" class="what">什么是亦习校园</a>
+            <a href="http://doc.cloudschool.shadowfish0.top/" target="blank" class="what">什么是互联医疗</a>
         </div>
         <div class="input_box2" ref="box2">
             <p>学校</p>
@@ -31,15 +31,15 @@
             <p>用户名</p>
             <input type="text" ref="input3" @focus="click_input3" @blur="blur_input3" class="input">
             <p class="mim">密码
-                <el-tooltip class="item" effect="dark" content="受湖工大认证系统调整影响，请尝试身份证后八位" placement="top-start">
+                <el-tooltip class="item" effect="dark" content="受互联医疗认证系统调整影响，请尝试身份证后八位" placement="top-start">
                 <i class="el-icon-question"></i>
                 </el-tooltip>
                 </p>
             <input type="password" ref="input4" @focus="click_input4" @blur="blur_input4" class="input">
-            <span class="text2">未注册亦习校园的用户可通过此方法注册</span>
-            <el-button class="login2">使用教务系统账号登录</el-button>
+            <span class="text2">未注册互联医疗的用户可通过此方法注册</span>
+            <el-button class="login2">使用医院系统账号登录</el-button>
             <div class="text1">已有帐号?
-                <span class="anotherlogin" @click="anotherlogin_yixi">使用亦习校园帐号登录</span>
+                <span class="anotherlogin" @click="anotherlogin_yixi">使用互联医疗帐号登录</span>
             </div>
         </div>
         </div>
@@ -262,7 +262,7 @@ p:nth-of-type(2)
     margin-top:3px;
 }
 .login:hover,.login2:hover{
-    background-color: #9AA1DD;
+    background-color: rgb(142, 194, 254);
     color:#FFFFF8;
 }
 .text1{
