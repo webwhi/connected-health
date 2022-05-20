@@ -77,7 +77,7 @@ color: rgb(64, 158, 255);
 .btn{
 height: 70px;
 line-height: 70px;
-font-size: 30px;
+font-size: 20px;
 margin-right: 10px;
 }
 .active{
